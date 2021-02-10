@@ -34,8 +34,8 @@ public class ConfigurationReader {
         }
     }
 
-    // Here I am creating a method so that I can read the file through the are in the configuration
-    // properties.
+    // Here I am creating a method so that I can read it through the configuration
+    // properties file.
     public static String getProperty(String key) {
         return properties.getProperty(key);
     }

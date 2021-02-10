@@ -18,6 +18,8 @@ public class Driver {
 
     public static WebDriver getDriver() {
 
+        // This null pointer here works as tracker, it will basically keep track of the same instance of
+        // the driver at the time of execution and will prevent repeated steps.
         if (driver == null) {
 
             // This method is calling the static method of getProperty in the ConfigurationReader Class.
